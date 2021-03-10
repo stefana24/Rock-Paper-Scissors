@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Rock Paper Scissors</h1>
+    </header>
+
+    <div class="container">
+        <div class="rock">
+            <img src="rock.png" alt="rock image" id="rock-image">
+        </div>
+        <div class="paper">
+            <img src="paper.png" id="paper-image">
+        </div>
+        <div class="scissor">
+            <img src="scissor.png" id="scissor-image">
+        </div>
+    </div>
+
+    <div class="score">
+        <p>User vs Computer</p>
+        <div class="score-table">
+            <span id="user-score">0</span>:<span id="computer-score">0</span>
+        </div>
+    </div>
+
+    <p id="move">Make your move!</p>
+    
+
+    <script src="app.js"></script>
+</body>
+</html>
